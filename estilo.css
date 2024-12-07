@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+#logo {
+    padding-top: 15px;
+    background-color: #fdfcea;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+#logo img {
+    height: 195px;
+    width: 590px;
+}
+
+.nada1 {
+    background-color: #fdfcea;
+    height: 50px;
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+}
+
+.nada2 {
+    background-color: #fdfcea;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.banner {
+    width: 100%;
+    height: 820px;
+    background-image: url(imagens/familha2.jpg);
+    background-position: 0 -70px;
+    background-size: cover;
+}
+
+.menu_do_topo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_do_topo a {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.671);
+    color: #00DFFC;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    text-decoration: none;
+}
+
+.menu_do_topo :hover {
+    color: #00DFFC;
+    text-shadow: 0 0 5px #0c7785;
+    font-size: 50px
+}
+
+#pagina_atual {
+    text-decoration: underline solid;
+}
+
+.slogan {
+    margin: 250px 0 70px 80px;
+    font-family: "League Spartan";
+    font-size: 100px;
+    font-weight: 700px;
+    color: #38B6FF;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.671);
+
+}
+
+
+.medicos {
+    padding-top: 15px;
+    background-color: #fdfcea;
+    min-width: 1000px;;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo1 {
+    font-family: "kanit";
+    font-size: 96px;
+    font-weight: 600px;
+    padding: 30px;
+
+}
+
+#menu_medicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 90px;
+
+}
+
+.cardio {
+    background-image: url(imagens/cardio.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 450px;
+    border-radius: 70px;
+
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.endo {
+    background-image: url(imagens/endo.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 450px;
+    border-radius: 70px;
+
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.nutro {
+    background-image: url(imagens/nutro.webp);
+    background-size: cover;
+    height: 600px;
+    width: 450px;
+    border-radius: 70px;
+
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.orto {
+    background-image: url(imagens/ortope.jpeg);
+    background-size: cover;
+    height: 600px;
+    width: 450px;
+    border-radius: 70px;
+
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.pedi {
+    background-image: url(imagens/pediatra.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 450px;
+    border-radius: 70px;
+
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.clin_geral {
+    background-image: url(imagens/clinico\ geral.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 450px;
+    border-radius: 70px;
+
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.tipo_medico {
+    font-family: "dosis";
+    font-weight: 800px;
+    font-size: 45px;
+    color: #00DFFC;
+    margin: 15px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.671);
+
+}
+
+.link1 {
+    text-decoration: none;
+    color: #00DFFC;
+}
+
+.link1:hover {
+    color: #1de5ff;
+    text-shadow: 0 0 5px #0e92a3;
+    font-size: 48px;
+
+}
+
+#compromissoEagendar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+#compromisso {
+    font-family: "dosis";
+    font-weight: 800px;
+    color: #38B6FF;
+    font-size: 56px;
+    text-align: start;
+margin-bottom: 40px;
+}
+
+#agende_ja {
+    color: #343838;
+    background-color: #38B6FF;
+    width: 350px;
+    height: 90px;
+    border: none;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: "Quicksand";
+    font-weight: 700;
+    margin-top: 200px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.432);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.493);
+}
+
+#agende_ja:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #16e4ff;
+    box-shadow: 3px 3px 5px #16e4ff;
+    background-color: #43baff;
+    font-size: 45px;
+    width: 385px;
+    height: 99px;
+}
+
+.unidades {
+    background-image: url(imagens/clinica.jpg);
+    width: 100%;
+    height: 820px;
+    background-position: 0 -100px;
+    background-size: cover;
+}
+
+.cada_vez_mais {
+    margin: 250px 0 70px 80px;
+    font-family: "League Spartan";
+    font-size: 90px;
+    font-weight: 700px;
+    color: #00DFFC;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.671);
+    text-align: right;
+    margin-right: 45px;
+    margin-top: 350px;
+}
+
+.endereco {
+    padding-top: 15p;
+    background-color: #fdfcea;
+     min-height: 650px;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.mapa {
+    border: 10px solid #00DFFC;
+    border-radius: 55px;
+    height: 500px;
+    width: 500px;
+    margin-top: 70px;
+}
+
+.enderecoEatendimento {
+    text-align: left;
+    margin-top: 70px;
+
+    
+}
+
+.enderecoEatendimento h1 {
+    font-size: 45px;
+    font-family: "dosis";   
+}
+
+.enderecoEatendimento h2 {
+    font-family: "Quicksand";
+    font-size: 35px;
+    margin: 40px 0;
+    color: #343838;
+}
+
+#verde {
+    color: #005F6B;
+}
+
+#azul {
+    color: #0571D3;
+}
+.conteudoDEendereco{
+
+    display: flex;
+    justify-content: space-around;
+}
+.nada3 {
+    background-color: #ced7dd;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+    margin-top: 40px;
+}
+.app{
+    background-color: #ced7dd ;
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.instalar{
+    height: 220px;
+    width: 350px; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    gap: 20px;
+}
+.butoes_instalar{
+    height: 104px;
+    width: 350px;
+}
+.instalar a:hover{
+    height: 104px;
+    width: 350px;
+    box-shadow: 0 0 8px #16e4ff;
+    border-radius:15px ;
+}
+.texto_app{
+text-align: right;
+margin-top: 55px;
+}
+.texto_app h1{
+font-family: "kanit";
+color: #0571D3;
+font-size: 55px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.texto_app h2{
+    font-family: "Quicksand";
+    color: #343838;
+    font-size: 40px;
+    font-weight: 500;
+}
